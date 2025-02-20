@@ -44291,25 +44291,49 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-sheet-1 {
-  min-height: 80px;
+  min-height: 94px;
 }
 
 .u-header .u-menu-1 {
-  margin: 24px 0 22px auto;
+  margin: 24px 0 0 auto;
+}
+
+.u-header .u-hamburger-link-1 {
+  font-size: calc(1em + 8px);
+  padding: 4px 0;
 }
 
 .u-header .u-nav-1 {
-  font-weight: 700;
+  font-weight: 400;
   font-size: 1rem;
-  letter-spacing: normal;
 }
 
-.u-header .u-nav-2 {
+.u-header .u-nav-3 {
   font-size: 1.25rem;
+}
+
+.u-header .u-image-1 {
+  width: 128px;
+  height: 41px;
+  margin: -34px auto 27px 0;
+}
+
+.u-header .u-logo-image-1 {
+  width: 100%;
+  height: 100%;
 }
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
+    margin-right: 0;
+  }
+
+  .u-header .u-nav-1 {
+    letter-spacing: normal;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -34px;
   }
 }
 
