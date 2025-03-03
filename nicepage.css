@@ -44335,7 +44335,24 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 
+@media (max-width: 575px) {
+  .u-header .u-menu-1 {
+    margin-top: 43px;
+    margin-right: 0;
+  }
 
+  .u-header .u-hamburger-link-1 {
+    font-size: calc(1em + 13.5556px);
+    padding-top: 7px;
+    padding-bottom: 7px;
+  }
+
+  .u-header .u-image-1 {
+    margin-top: -76px;
+    margin-bottom: 10px;
+    margin-left: -31px;
+  }
+}
  .u-footer {
   background-image: none;
 }
